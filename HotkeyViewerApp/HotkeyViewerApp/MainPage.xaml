@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HotkeyViewerApp"
+             x:Class="HotkeyViewerApp.MainPage">
+
+	<Label Text="Hot Key Word List"
+           FontSize="Large"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+    
+    <StackLayout 
+        VerticalOptions="Center"
+                 HorizontalOptions="Center">
+
+        <Label Text="{Binding Path=[1] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[2] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[3] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[4] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[5] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[6] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[7] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[8] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[9] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[10] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[11] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[12] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[13] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[14] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[15] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[16] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[17] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[18] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[19] StringFormat='{0}'}"/>
+        <Label Text="{Binding Path=[20] StringFormat='{0}'}"/>
+
+
+    </StackLayout>
+
+</ContentPage>

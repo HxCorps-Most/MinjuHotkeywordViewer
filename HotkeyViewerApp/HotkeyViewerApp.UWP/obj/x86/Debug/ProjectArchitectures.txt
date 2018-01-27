@@ -1,0 +1,1 @@
+C:\Users\kmju1\Source\Repos\HotkeyViewerApp\HotkeyViewerApp\HotkeyViewerApp.UWP\HotkeyViewerApp.UWP.csproj;x86
